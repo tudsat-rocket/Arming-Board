@@ -1064,19 +1064,13 @@
 		)
 	)
 	(junction
-		(at 99.06 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0da2c294-5158-453c-8f10-6d3a2bf74924")
-	)
-	(junction
 		(at 130.81 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14fda9d5-1b25-469d-9234-c776fa09373d")
 	)
 	(junction
-		(at 139.7 149.86)
+		(at 140.97 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d31128b-6d28-4bc4-8f06-548b1fae1187")
@@ -1094,16 +1088,16 @@
 		(uuid "374516a6-4402-4349-b09c-70059cd42066")
 	)
 	(junction
+		(at 99.06 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f6168cb-c725-423a-a52f-25db264008ff")
+	)
+	(junction
 		(at 207.01 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "550a84d2-8f97-4515-a623-5ba4eb649730")
-	)
-	(junction
-		(at 87.63 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "573132fd-fa7a-4ba9-8383-0d2f65e496e5")
 	)
 	(junction
 		(at 151.13 149.86)
@@ -1124,16 +1118,22 @@
 		(uuid "852fee86-5ca6-40bd-ab27-58a31324bcca")
 	)
 	(junction
-		(at 139.7 133.35)
+		(at 87.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ac3360-ee43-465c-b78c-b32e575b008a")
+	)
+	(junction
+		(at 140.97 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90d297b9-acbb-410b-8420-e42191c26353")
 	)
 	(junction
-		(at 87.63 81.28)
+		(at 87.63 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e3a7c3c-1ddb-4a91-9fae-791178af8a94")
+		(uuid "91407de3-2e77-4d09-98e4-e74e865061ef")
 	)
 	(junction
 		(at 120.65 97.79)
@@ -1197,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 151.13 133.35)
+			(xy 140.97 133.35) (xy 151.13 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1214,16 +1214,6 @@
 			(type default)
 		)
 		(uuid "0a8a868a-f58f-4da1-bb90-5669a8021ab1")
-	)
-	(wire
-		(pts
-			(xy 87.63 81.28) (xy 99.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3cf7dc-c440-4259-9a5b-bfb0a5c5dc23")
 	)
 	(wire
 		(pts
@@ -1274,6 +1264,16 @@
 			(type default)
 		)
 		(uuid "282223bd-81ac-4fc6-9af0-2072a75ea07d")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1f7ca6-d506-4d18-923f-dbe488accad7")
 	)
 	(wire
 		(pts
@@ -1357,17 +1357,37 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 99.06 69.85)
+			(xy 190.5 101.6) (xy 193.04 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44b17c17-6828-448a-8d83-2e0d1a0bd118")
+		(uuid "4ad01448-ea57-4c7c-b2dc-b6f4423d857d")
 	)
 	(wire
 		(pts
-			(xy 139.7 149.86) (xy 130.81 149.86)
+			(xy 128.27 55.88) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b72d180-cd89-4443-92dd-894b52aeec07")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecc04e4-5370-44cb-b795-5e82302beb41")
+	)
+	(wire
+		(pts
+			(xy 140.97 149.86) (xy 130.81 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1407,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 158.75 133.35)
+			(xy 151.13 133.35) (xy 161.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1467,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 139.7 133.35)
+			(xy 87.63 69.85) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734b0600-80c0-4e72-aff9-3765ea8a370b")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 140.97 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1457,13 +1487,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 144.78) (xy 158.75 149.86)
+			(xy 161.29 144.78) (xy 161.29 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "790ce2b2-5488-406b-b26f-c41ee3518853")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2eb0f5-a518-407e-83fd-107047c60c69")
 	)
 	(wire
 		(pts
@@ -1507,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 83.82) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913d3f28-8fa9-4ba0-a348-501fab091e0a")
+	)
+	(wire
+		(pts
 			(xy 120.65 109.22) (xy 121.92 109.22)
 		)
 		(stroke
@@ -1537,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 121.92 69.85)
+			(xy 87.63 69.85) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1577,17 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c4d15b-7d6e-42f7-9a16-b63206de4248")
-	)
-	(wire
-		(pts
-			(xy 158.75 133.35) (xy 158.75 139.7)
+			(xy 161.29 133.35) (xy 161.29 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1667,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 149.86) (xy 151.13 149.86)
+			(xy 190.5 81.28) (xy 194.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b819a8bc-9c32-4d5f-a9ff-e2a6b74101b5")
+	)
+	(wire
+		(pts
+			(xy 161.29 149.86) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1677,16 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6f28a2-d34b-4d3a-bce3-41f8f5c4b78f")
-	)
-	(wire
-		(pts
 			(xy 87.63 104.14) (xy 87.63 100.33)
 		)
 		(stroke
@@ -1707,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 139.7 149.86)
+			(xy 140.97 144.78) (xy 140.97 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 130.81 133.35)
+			(xy 140.97 133.35) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1805,55 +1845,65 @@
 		)
 		(uuid "ff40c8e3-ae8c-49fb-9953-d4ac5283d6f2")
 	)
+	(label "VSS"
+		(at 140.97 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "072fa338-6e2e-4925-9808-b9593bda74f9")
+	)
+	(label "VSS"
+		(at 193.04 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17d69c3e-4daa-409a-bb1d-4775f7f46de1")
+	)
+	(label "V+"
+		(at 161.29 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30d55154-12ee-4dc3-8a36-bd14ace94f2c")
+	)
+	(label "-out"
+		(at 229.87 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47b2db5e-9642-46ba-beba-e373f29139c8")
+	)
+	(label "V-"
+		(at 161.29 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d775144-8337-4c6d-8ca0-daa785ff6c5a")
+	)
 	(label "VDD"
-		(at 190.5 81.28 0)
+		(at 194.31 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1ee258ab-c869-4f4e-a182-a5d4b5e550fc")
-	)
-	(label "V-"
-		(at 128.27 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "275710bb-005a-4a1c-9216-6697541212c2")
-	)
-	(label "V+"
-		(at 158.75 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2858e6bc-c5a7-4e8c-af89-5a7339dfa196")
-	)
-	(label "V-"
-		(at 158.75 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3656c6e5-99ad-4b79-927e-5e67b04c1849")
-	)
-	(label "V+"
-		(at 128.27 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "539afceb-6333-415c-9da9-a06d0de7172b")
+		(uuid "7c6ce78e-add0-410d-a679-0b232848f73f")
 	)
 	(label "V-"
 		(at 128.27 73.66 0)
@@ -1866,55 +1916,35 @@
 		(uuid "8fd902c9-4cb6-42fd-b75f-b8930fe33e87")
 	)
 	(label "VDD"
-		(at 139.7 139.7 0)
+		(at 140.97 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "96ffaa3c-7648-4442-b019-1c2c9d5d1697")
-	)
-	(label "GND"
-		(at 190.5 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea6eaed6-da71-4069-bca3-a0d85655c820")
-	)
-	(label "GND"
-		(at 139.7 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec33827f-2749-4432-ba34-9addbc2b0b8d")
+		(uuid "c144234d-4898-4e1b-89b8-00946ad41b0e")
 	)
 	(label "V+"
-		(at 128.27 60.96 0)
+		(at 128.27 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "eddb42ed-7e83-44d7-b52b-82ff86411bde")
+		(uuid "c67a309f-3047-442a-9cf0-aece7f2a1dfd")
 	)
-	(hierarchical_label "arm"
+	(hierarchical_label "disarm"
 		(shape input)
-		(at 73.66 57.15 180)
+		(at 73.66 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "32c18c76-c1df-448d-b0fe-d98d233fd751")
+		(uuid "1e7835b0-727d-4ffa-8b2f-9ec1c81562c2")
 	)
 	(hierarchical_label "out"
 		(shape output)
@@ -1960,29 +1990,7 @@
 		)
 		(uuid "6b16edc5-ca18-4fed-af6c-000923590449")
 	)
-	(hierarchical_label "disarm"
-		(shape input)
-		(at 73.66 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79420630-d12a-46c5-9bcb-a3858d3c35de")
-	)
-	(hierarchical_label "-out"
-		(shape output)
-		(at 229.87 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c669de4b-a33c-4c5b-a382-fd686bf26691")
-	)
-	(hierarchical_label "power_fused"
+	(hierarchical_label "pwr_fused"
 		(shape input)
 		(at 123.19 133.35 180)
 		(effects
@@ -1992,6 +2000,17 @@
 			(justify right)
 		)
 		(uuid "d1ff67ff-ea7d-4d1b-a369-e3a21a37db93")
+	)
+	(hierarchical_label "arm"
+		(shape input)
+		(at 73.66 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbf9c188-b903-4ac5-8aaa-cce455b75970")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2048,10 +2067,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f23f132f-6030-4ab3-81be-30336e6b4909")
+			(uuid "83360753-d34b-4bc4-b75c-cbbe40f4fbb2")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR021")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "#PWR05")
 					(unit 1)
@@ -2078,7 +2101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 134.62 143.5099 0)
 			(effects
 				(font
@@ -2087,7 +2110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 146.05 0)
 			(effects
 				(font
@@ -2115,101 +2138,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bea7990-09d6-4d5a-8de1-4a1a655058e2")
+			(uuid "e3d1bceb-4a42-4d7f-8098-b68b7b87d893")
 		)
 		(pin "2"
-			(uuid "b59cd9fd-f0d9-4351-8801-66ab48ea73bd")
+			(uuid "6ba1709e-a8ce-4764-a653-2052fc0fe913")
 		)
 		(instances
 			(project "Arming board"
-				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "C4")
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "C8")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Analog_Comparator_AKL:TSX3702ID")
-		(at 128.27 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f0d13d8-cedf-4205-b555-cd9c509aa29a")
-		(property "Reference" "U2"
-			(at 140.97 60.8898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSX3702ID"
-			(at 140.97 63.4298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/63468f7e14d2b9a38e7b5390d4cce2a4/TSX3702.pdf"
-			(at 128.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SO-8 Dual Micropower Comparator, 1.8μs Propagation Delay, 5mV Offset, Alternate KiCAD Library"
-			(at 128.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e3f12f8d-3972-4230-a958-f3e892f46a6d")
-		)
-		(pin "8"
-			(uuid "2bff0970-5b1d-4597-b14d-b6c0c55697d5")
-		)
-		(pin "6"
-			(uuid "55395f47-0a93-4abd-be01-3c774fa116e7")
-		)
-		(pin "1"
-			(uuid "790dbf04-41df-41ae-ad53-dca36ed11844")
-		)
-		(pin "3"
-			(uuid "b1b56799-b92c-4beb-bdbc-be26fb04be1a")
-		)
-		(pin "5"
-			(uuid "f9c7a084-aee1-496d-9d1e-c2074145f9ec")
-		)
-		(pin "7"
-			(uuid "0d91cf6a-f7bf-4f74-be68-30b964209d69")
-		)
-		(pin "2"
-			(uuid "ff2439b7-22ab-4962-a97c-74149531100d")
-		)
-		(instances
-			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "U2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 217.17 82.5499 0)
 			(effects
 				(font
@@ -2243,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.852 81.28 90)
 			(effects
 				(font
@@ -2271,13 +2212,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "abbd0df5-4d66-431b-8f83-fdd6b63e1db2")
+			(uuid "73fa09e8-744c-475f-929a-e4109fc96d82")
 		)
 		(pin "2"
-			(uuid "875478c1-261e-4d7c-b987-bf58ba49d138")
+			(uuid "28f5cf77-189b-42b1-8895-54e467d62f4a")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R18")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R7")
 					(unit 1)
@@ -2304,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 200.66 82.5499 0)
 			(effects
 				(font
@@ -2313,7 +2258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.342 81.28 90)
 			(effects
 				(font
@@ -2341,16 +2286,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "e05d00b1-43ab-4655-84f3-ca0d93ad98c3")
+			(uuid "3c87f720-bb00-4c82-b848-00f6acaf02ce")
 		)
 		(pin "2"
-			(uuid "5adb63ce-1732-46bc-87c5-351576094483")
+			(uuid "e9927784-7c87-4c16-8f5f-e8c5587a6add")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R16")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R8")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Analog_Comparator_AKL:TSX3702ID")
+		(at 128.27 111.76 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41094f1c-f1c8-4e56-a107-30168807c181")
+		(property "Reference" "U2"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSX3702ID"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/63468f7e14d2b9a38e7b5390d4cce2a4/TSX3702.pdf"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-8 Dual Micropower Comparator, 1.8μs Propagation Delay, 5mV Offset, Alternate KiCAD Library"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4691bc7-4ecd-4656-9263-89c5d591e9de")
+		)
+		(pin "3"
+			(uuid "74155a63-0f0c-4932-b72c-8bd37e1546fe")
+		)
+		(pin "2"
+			(uuid "e5a2bdb8-e143-4e2b-abb1-05c401f4d0a4")
+		)
+		(pin "8"
+			(uuid "ab849367-bead-4bc3-8339-6f61c8ffa6db")
+		)
+		(pin "4"
+			(uuid "c01f189b-2168-4638-bb7d-557624b9c800")
+		)
+		(pin "6"
+			(uuid "79bea51a-134e-4608-be75-606775a079a0")
+		)
+		(pin "7"
+			(uuid "e127e10e-6c85-47aa-bcd8-d3fe37e26efa")
+		)
+		(pin "5"
+			(uuid "ae0e6444-be91-460e-ade5-74732e4b704c")
+		)
+		(instances
+			(project ""
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "U3")
+					(unit 2)
+				)
+				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -2410,10 +2449,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e79de3f-3407-4916-8f40-2baadfd7ae92")
+			(uuid "31aa58f8-80d2-4150-a619-42bffcb096f1")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR016")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "#PWR02")
 					(unit 1)
@@ -2423,24 +2466,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 77.47 0)
+		(at 87.63 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d6e2919-d27f-48a7-b7d2-11823490cb20")
+		(uuid "67f9fd42-9d01-481f-920c-45a729143aac")
 		(property "Reference" "R2"
-			(at 90.17 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
 			(at 90.17 78.7399 0)
 			(effects
 				(font
@@ -2449,8 +2483,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 85.852 77.47 90)
+		(property "Value" "10k"
+			(at 90.17 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.852 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 77.47 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2511,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 77.47 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,15 +2520,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "40a9878d-0620-47e4-b24b-dae39f3950cf")
+			(uuid "c6a5f3f8-3769-4a86-b955-5716473c4a4d")
 		)
 		(pin "2"
-			(uuid "19655a0c-286b-4b0b-93ef-ca92eedc3349")
+			(uuid "4a808527-3436-417e-86ea-caaec479ac02")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R12")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c52baa-bf42-493a-a415-bb5e1e1ec2ca")
+		(property "Reference" "C1"
+			(at 102.87 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 102.87 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.0252 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "310bb733-446a-42cb-896b-52e3b6cda1b1")
+		)
+		(pin "1"
+			(uuid "bfc913ca-1fbc-45d3-8ccd-07954d915fbe")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2510,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 102.87 123.1899 0)
 			(effects
 				(font
@@ -2519,7 +2640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 125.73 0)
 			(effects
 				(font
@@ -2547,13 +2668,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "85fa477b-4076-4c05-aaf0-d8f9769d1630")
+			(uuid "0d1fcb5d-f978-4d76-9c7c-2035822314f9")
 		)
 		(pin "1"
-			(uuid "7b79ee4e-a7c3-4981-8430-8c31266173af")
+			(uuid "d2506293-6a92-4657-8dbc-7917168556e0")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "C7")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "C2")
 					(unit 1)
@@ -2616,10 +2741,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9fe52ef-4dd1-4683-9cca-3d7cb90ef67d")
+			(uuid "00271546-c633-49de-bce5-3db89cab536c")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR017")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "#PWR03")
 					(unit 1)
@@ -2653,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40107BE:DIP794W45P254L959H508Q8"
+		(property "Footprint" "cd40107:DIP794W45P254L959H508Q8"
 			(at 172.72 91.44 0)
 			(effects
 				(font
@@ -2762,103 +2891,37 @@
 			)
 		)
 		(pin "7"
-			(uuid "55d10b6a-11c3-4847-a408-4e2adb40f529")
+			(uuid "af9ea0ca-10e4-4dc5-bdb0-82a94eb861fa")
 		)
 		(pin "2"
-			(uuid "f4980499-5abc-4660-abd9-c37e2b6e0f4c")
+			(uuid "8783f9b8-2ee1-4967-8ce0-4602b5a6f1ed")
 		)
 		(pin "1"
-			(uuid "056fafb4-43a9-462a-9da5-5b7075d14a30")
+			(uuid "fc042a56-c76f-4ed5-8722-c32af45035ea")
 		)
 		(pin "6"
-			(uuid "3200c0bb-40b5-4df2-808d-9b86494f5246")
+			(uuid "fcbbb3b0-6f42-4e92-920e-02c2f278f70e")
 		)
 		(pin "4"
-			(uuid "8f2d1bba-712e-44cc-bb6a-923716e58897")
+			(uuid "c8691b61-202c-4df6-80c9-a9ab60a3b745")
 		)
 		(pin "8"
-			(uuid "5c6b4da0-ef08-41f1-827d-c2c5d24598f3")
+			(uuid "dd96f8ac-6f5d-431c-8bc7-d0692813d710")
 		)
 		(pin "5"
-			(uuid "c100e771-adec-4300-9464-6cc44b494ff8")
+			(uuid "eb499247-cfb5-41a9-b143-c310b87d8df1")
 		)
 		(pin "3"
-			(uuid "920b5e6b-1bd2-46c8-89ad-8008b64bf206")
+			(uuid "d2062c4d-a991-4d28-8cf5-c5b6ed1200ab")
 		)
 		(instances
 			(project "Arming board"
-				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "U1")
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "U6")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f162b6d-b4a6-4bbe-ace5-4a4af8b97d28")
-		(property "Reference" "C1"
-			(at 102.87 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 102.87 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.0252 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a60b8690-5dde-4775-af78-c00e24ab847d")
-		)
-		(pin "1"
-			(uuid "ea135e63-57c6-488e-b47a-f4de02e82769")
-		)
-		(instances
-			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "C1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2883,7 +2946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 201.93 71.1199 0)
 			(effects
 				(font
@@ -2892,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.0852 73.66 0)
 			(effects
 				(font
@@ -2920,13 +2983,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "7301c4b0-06f9-4c7c-89c6-73f9727b3102")
+			(uuid "298187c5-6750-4779-9ce0-90639a37b231")
 		)
 		(pin "2"
-			(uuid "21583a42-4936-4594-96a9-f1f603c95137")
+			(uuid "ba71f59e-73db-46c2-b33d-4acb46805962")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "C10")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "C3")
 					(unit 1)
@@ -2953,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 90.17 123.1899 0)
 			(effects
 				(font
@@ -2962,7 +3029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 121.92 90)
 			(effects
 				(font
@@ -2990,13 +3057,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "32af9ecb-22cc-44fc-8342-de520bb53b03")
+			(uuid "739990a2-589f-4191-96e3-5095741b2717")
 		)
 		(pin "2"
-			(uuid "ba1064e6-ee26-4eea-a368-b359afb56284")
+			(uuid "bb3412e6-912e-4fe4-b425-f85ef3e827fe")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R14")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R4")
 					(unit 1)
@@ -3023,7 +3094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "4.7"
 			(at 114.3 104.1399 90)
 			(effects
 				(font
@@ -3032,7 +3103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 111.76 102.87 0)
 			(effects
 				(font
@@ -3078,13 +3149,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "7dc248e0-27fc-4920-b2cd-06832fcadc2d")
+			(uuid "75005288-ebf5-4c47-9cdf-505539b9eb2c")
 		)
 		(pin "1"
-			(uuid "114cf034-12b5-44fe-bfd6-17b72efc9842")
+			(uuid "ebaf192e-3226-4126-abe2-3b0446190dfa")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "D3")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "D1")
 					(unit 1)
@@ -3094,7 +3169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 149.86 0)
+		(at 140.97 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3103,7 +3178,7 @@
 		(fields_autoplaced yes)
 		(uuid "b98a0b35-d9c0-488c-b03f-61ef5f8ec4d1")
 		(property "Reference" "#PWR04"
-			(at 139.7 156.21 0)
+			(at 140.97 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 154.94 0)
+			(at 140.97 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 149.86 0)
+			(at 140.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 149.86 0)
+			(at 140.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 149.86 0)
+			(at 140.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,78 +3222,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "004e97e0-979b-445a-9adc-cc02dc1ee21b")
+			(uuid "bad666db-6fc9-4f23-b923-e5ccea6f35be")
 		)
 		(instances
 			(project "Arming board"
-				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "#PWR04")
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR018")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c403bd1c-aa7e-42ca-a18a-a638b2bc333b")
-		(property "Reference" "#PWR01"
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "490b916d-87af-4dda-a801-cbafc21ebebc")
-		)
-		(instances
-			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 90.17 64.7699 0)
 			(effects
 				(font
@@ -3252,7 +3265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 63.5 90)
 			(effects
 				(font
@@ -3280,13 +3293,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bb4c62d-77aa-430b-a445-29cbf0a80319")
+			(uuid "37307ea4-52a1-470f-939e-04383184c26c")
 		)
 		(pin "2"
-			(uuid "3daf20aa-faa0-492d-ad07-316681bcae59")
+			(uuid "8f648a3f-ab76-4d35-a724-29327310f30d")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R11")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R1")
 					(unit 1)
@@ -3349,10 +3366,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f8ba122-535d-49ab-84bf-f31b4be1d08f")
+			(uuid "c801210a-9405-4e1a-8e14-9f970545a88f")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR022")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "#PWR06")
 					(unit 1)
@@ -3379,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 154.94 143.5099 0)
 			(effects
 				(font
@@ -3388,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 146.05 0)
 			(effects
 				(font
@@ -3416,13 +3437,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec25b4a7-5524-4974-817f-e72ce64e773b")
+			(uuid "8869b20b-ff3a-4cbe-b0f6-a28738fa5753")
 		)
 		(pin "2"
-			(uuid "1d265fb0-0583-4851-a294-f1c996ee7f31")
+			(uuid "54f9168d-851d-4360-af81-fe63c2f7f1b2")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "C5")
 					(unit 1)
@@ -3449,7 +3474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 90.17 109.2199 0)
 			(effects
 				(font
@@ -3458,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 107.95 90)
 			(effects
 				(font
@@ -3486,15 +3511,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "11da9757-57fa-4c13-be54-cd3711263b69")
+			(uuid "919260e7-4261-4d7c-bcb2-b15fbae41906")
 		)
 		(pin "2"
-			(uuid "9ccf2057-1c04-4643-8fc4-031d1c91a9d3")
+			(uuid "4d71cd2b-1ea8-43aa-90e7-9f52bd192269")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R13")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78dc8b6-9e73-4a4b-a212-10e4a3fbeba3")
+		(property "Reference" "#PWR01"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82f965c-2e11-495d-968d-723c568ba47a")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 209.55 82.5499 0)
 			(effects
 				(font
@@ -3528,7 +3627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.232 81.28 90)
 			(effects
 				(font
@@ -3556,15 +3655,109 @@
 			)
 		)
 		(pin "1"
-			(uuid "532a1eb4-bbe7-4bcb-9e79-d28e44461c02")
+			(uuid "fecbf736-1dcc-4ea6-aab6-7db5c6cc28e9")
 		)
 		(pin "2"
-			(uuid "fadd54ed-35d3-4a18-be82-1ba6070a3c18")
+			(uuid "44811232-81a5-4de8-a445-bfbcc980f917")
 		)
 		(instances
 			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R17")
+					(unit 1)
+				)
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Analog_Comparator_AKL:TSX3702ID")
+		(at 128.27 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55d6700-71bb-4990-b81f-3a407be6e2c5")
+		(property "Reference" "U2"
+			(at 140.97 60.8898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSX3702ID"
+			(at 140.97 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/63468f7e14d2b9a38e7b5390d4cce2a4/TSX3702.pdf"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-8 Dual Micropower Comparator, 1.8μs Propagation Delay, 5mV Offset, Alternate KiCAD Library"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4691bc7-4ecd-4656-9263-89c5d591e9df")
+		)
+		(pin "3"
+			(uuid "74155a63-0f0c-4932-b72c-8bd37e1546ff")
+		)
+		(pin "2"
+			(uuid "e5a2bdb8-e143-4e2b-abb1-05c401f4d0a5")
+		)
+		(pin "8"
+			(uuid "ab849367-bead-4bc3-8339-6f61c8ffa6dc")
+		)
+		(pin "4"
+			(uuid "c01f189b-2168-4638-bb7d-557624b9c801")
+		)
+		(pin "6"
+			(uuid "79bea51a-134e-4608-be75-606775a079a1")
+		)
+		(pin "7"
+			(uuid "e127e10e-6c85-47aa-bcd8-d3fe37e26efb")
+		)
+		(pin "5"
+			(uuid "ae0e6444-be91-460e-ade5-74732e4b704d")
+		)
+		(instances
+			(project ""
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 114.3 93.9799 0)
 			(effects
 				(font
@@ -3598,7 +3791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.982 92.71 90)
 			(effects
 				(font
@@ -3626,101 +3819,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2fe18829-88b9-4d32-9efa-e568f0fe38ae")
+			(uuid "a76d8e4b-15c0-4a28-93c3-6adf308e6821")
 		)
 		(pin "1"
-			(uuid "99b4767b-4611-4180-8593-4ec04875147f")
+			(uuid "5edb2778-f5c7-4e4f-a9e7-bc4f234b7238")
 		)
 		(instances
 			(project "Arming board"
-				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "R5")
+				(path "/a8577761-41ea-4572-892c-e689011487d6/0ca9475e-c366-468a-91af-a617d6080899"
+					(reference "R15")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Analog_Comparator_AKL:TSX3702ID")
-		(at 128.27 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feafd891-7e09-466d-9b2f-02b00016d296")
-		(property "Reference" "U3"
-			(at 140.97 105.3398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSX3702ID"
-			(at 140.97 107.8798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/63468f7e14d2b9a38e7b5390d4cce2a4/TSX3702.pdf"
-			(at 128.27 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SO-8 Dual Micropower Comparator, 1.8μs Propagation Delay, 5mV Offset, Alternate KiCAD Library"
-			(at 128.27 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "16b44ff4-2b2b-4d4a-953e-a0914c397397")
-		)
-		(pin "8"
-			(uuid "2d91e8d3-b235-4e82-ba30-f343ade49393")
-		)
-		(pin "6"
-			(uuid "55395f47-0a93-4abd-be01-3c774fa116e8")
-		)
-		(pin "1"
-			(uuid "f75beb8b-c831-4efa-8e44-63e3b977c97b")
-		)
-		(pin "3"
-			(uuid "50ff5f0d-422c-4333-a925-2600045b7296")
-		)
-		(pin "5"
-			(uuid "f9c7a084-aee1-496d-9d1e-c2074145f9ed")
-		)
-		(pin "7"
-			(uuid "0d91cf6a-f7bf-4f74-be68-30b964209d6a")
-		)
-		(pin "2"
-			(uuid "5db6caf1-b421-4295-a746-e2d0ed04cd96")
-		)
-		(instances
-			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6/b7a8dbdc-ba35-4269-971a-2c19703d8248"
-					(reference "U3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
