@@ -516,14 +516,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -684,14 +683,6 @@
     [
       "a8577761-41ea-4572-892c-e689011487d6",
       "Root"
-    ],
-    [
-      "b7a8dbdc-ba35-4269-971a-2c19703d8248",
-      "Arming logic 1"
-    ],
-    [
-      "0ca9475e-c366-468a-91af-a617d6080899",
-      "Arming logic 2"
     ]
   ],
   "text_variables": {},
