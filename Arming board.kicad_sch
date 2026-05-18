@@ -5,6 +5,222 @@
 	(uuid "a8577761-41ea-4572-892c-e689011487d6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -878,29 +1094,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at -11.43 -1.27 0)
+			(property "Reference" "Q1"
+				(at 7.62 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "SQS141ELNW-T1_GE3"
-				(at -11.43 -3.81 0)
+				(at 7.62 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SQS141ELNW-T1_GE3:POWERPAK-1212-8"
+			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -946,7 +1162,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description_1" "MOSFET, P-CH/40V/101A/POWERPAK 1212-8SLW ROHS COMPLIANT: YES"
+			(property "Description_1" "55℃~+175℃ 1 P-Channel 10mΩ@10V 119W 141nC@10V 2V 347pF 40V 460pF 7.458nF 79A P-Channel PowerPAK1212-8SLW MOSFETs ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -958,76 +1174,14 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "LCSC" "C6818689"
+				(at 2.286 -5.588 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SQS141ELNW-T1/GE3/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SQS141ELNW-T1/GE3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SQS141ELNW-T1/GE3/Vishay/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 				)
 			)
 			(symbol "SQS141ELNW-T1_GE3_0_0"
@@ -1407,7 +1561,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1426,7 +1580,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1445,7 +1599,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1464,7 +1618,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2445,7 +2599,7 @@
 		(at 54.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "695f1be4-7f06-40c8-8929-9a72843a27f8")
+		(uuid "81ef3a21-44f3-47a3-b5b2-f5d95dfa0a15")
 	)
 	(junction
 		(at 73.66 69.85)
@@ -2493,7 +2647,7 @@
 		(at 45.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cef786cf-47c7-401c-be7c-468b661d5564")
+		(uuid "cf13fe7e-49d4-4f8a-a6c0-d4fa66930e25")
 	)
 	(junction
 		(at 76.2 120.65)
@@ -2632,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "0cdc4f52-a9f8-434d-a2b9-ea0deeaead0c")
-	)
-	(wire
-		(pts
-			(xy 34.29 120.65) (xy 54.61 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1072b99b-cf7f-4c9e-ac5e-4514b4010869")
 	)
 	(wire
 		(pts
@@ -2845,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 118.11) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5922990c-0545-4df6-9815-fb92ef38468e")
+	)
+	(wire
+		(pts
 			(xy 73.66 69.85) (xy 73.66 72.39)
 		)
 		(stroke
@@ -2865,13 +3019,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 118.11) (xy 31.75 120.65)
+			(xy 34.29 120.65) (xy 34.29 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67e4cd50-eccd-4de8-879f-a7fb50d2633c")
+		(uuid "6572b6c8-c1be-4539-bd44-3619ff5e4ed8")
 	)
 	(wire
 		(pts
@@ -3015,6 +3169,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 120.65) (xy 34.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a259348e-1ab5-4f64-9ad9-295af177a46b")
+	)
+	(wire
+		(pts
 			(xy 49.53 62.23) (xy 68.58 62.23)
 		)
 		(stroke
@@ -3062,16 +3226,6 @@
 			(type default)
 		)
 		(uuid "b155c64a-4737-4075-8e42-a6e349a11c82")
-	)
-	(wire
-		(pts
-			(xy 31.75 118.11) (xy 45.72 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66d8070-940b-45e9-a5bb-e9dc70e5c324")
 	)
 	(wire
 		(pts
@@ -3132,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "c53d6d60-3a60-4e8e-8041-936c4e65c599")
+	)
+	(wire
+		(pts
+			(xy 31.75 118.11) (xy 31.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8726e9a-eabb-4707-8b96-5589f43b24b1")
 	)
 	(wire
 		(pts
@@ -3265,17 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 31.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38196fc-594f-4183-9658-83ca25739a61")
-	)
-	(wire
-		(pts
-			(xy 34.29 133.35) (xy 34.29 137.16)
+			(xy 29.21 127) (xy 29.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5829,7 @@
 		(pin "5"
 			(uuid "cde650a6-b7b7-400d-bf27-21e17e88ef9d")
 		)
-		(pin "8"
+		(pin "5"
 			(uuid "16ca7dc5-22f1-41ee-92af-106b78c1b28a")
 		)
 		(pin "2"
@@ -5684,7 +5838,7 @@
 		(pin "4"
 			(uuid "277c727f-57f4-4f60-a5b0-fb4907f922eb")
 		)
-		(pin "6"
+		(pin "5"
 			(uuid "ceb5875c-7a1f-43a7-862f-b800207763b4")
 		)
 		(pin "3"
@@ -5693,10 +5847,10 @@
 		(pin "1"
 			(uuid "3ecc0305-6c25-49f1-9926-c76b49277028")
 		)
-		(pin "7"
+		(pin "5"
 			(uuid "1e3941e1-0047-48f0-b3e2-799bbd6ea7c3")
 		)
-		(pin "9"
+		(pin "5"
 			(uuid "bda2d3f0-ea76-4e5c-862c-44b32989a96a")
 		)
 		(instances
@@ -6381,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 137.16 0)
+		(at 36.83 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6389,10 +6543,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7168833a-bf24-49a6-b8f2-e24b3ab4eeaf")
 		(property "Reference" "#PWR012"
-			(at 31.75 143.51 0)
+			(at 36.83 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.7501 140.97 90)
+			(at 39.37 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6414,7 +6567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 137.16 0)
+			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 137.16 0)
+			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,7 +6589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 137.16 0)
+			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,7 +6613,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 34.29 137.16 180)
+		(at 29.21 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6471,7 +6624,7 @@
 		(fields_autoplaced yes)
 		(uuid "74a15ae6-107f-4247-b9f2-b341a4e1871b")
 		(property "Reference" "#PWR06"
-			(at 34.29 133.35 0)
+			(at 29.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +6635,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 34.29 142.24 0)
+			(at 29.21 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6492,7 +6645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 137.16 0)
+			(at 29.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 137.16 0)
+			(at 29.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +6667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 34.29 137.16 0)
+			(at 29.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,6 +6762,92 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 34.29 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76181970-fc39-4f74-8105-83c42b5688b9")
+		(property "Reference" "J3"
+			(at 33.02 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 33.02 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+			(at 34.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2e09dd36-18d6-48e9-99de-108835e1583c")
+		)
+		(pin "2"
+			(uuid "ea963a44-3e07-43d0-a241-fb23acec467f")
+		)
+		(pin "1"
+			(uuid "df05f01f-7a60-4d24-8ce0-564a660b5243")
+		)
+		(pin "3"
+			(uuid "e68150ad-13e4-44fc-bad4-937b685b2dcc")
+		)
+		(instances
+			(project "Arming board"
+				(path "/a8577761-41ea-4572-892c-e689011487d6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8310,103 +8549,6 @@
 			(project "Arming board"
 				(path "/a8577761-41ea-4572-892c-e689011487d6"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 31.75 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e04d8bef-e954-4782-960f-2cde43118a75")
-		(property "Reference" "J6"
-			(at 29.464 127.254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 28.194 128.524 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
-			(at 31.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/Molex/43045-0400?qs=UeCeOHRHQeaIqmxE9Bxdrw%3D%3D#:~:text=Datenblatt%3A,43045%2D0400%20Datenblatt"
-			(at 31.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "43045-0400"
-			(at 31.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
-			(at 31.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9955b190-96fb-406c-b1ab-d819ef895b38")
-		)
-		(pin "2"
-			(uuid "f680c5c8-cd7d-47eb-9de3-33898e025893")
-		)
-		(pin "4"
-			(uuid "666515e3-9fbc-4deb-b236-636ff84f5b64")
-		)
-		(pin "1"
-			(uuid "ad8f61e8-2928-409f-9ab0-7e03f5adb7b1")
-		)
-		(instances
-			(project "Arming board"
-				(path "/a8577761-41ea-4572-892c-e689011487d6"
-					(reference "J6")
 					(unit 1)
 				)
 			)
